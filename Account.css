@@ -1,0 +1,102 @@
+*{  margin:0;
+    padding:0;    
+    box-sizing: border-box;}
+.container{
+    margin:0 auto;    
+    width:100%;    
+    max-width: 400px;    
+    border: 1px solid black;    
+    background:white;    
+    color:aliceblue;    
+    padding:20px;}
+h3{    
+    margin-top: 10px;    
+    color:greenyellow;    
+    margin-bottom: 10px;}
+.account_item{    
+    display:flex;    
+    border:1px solid black;    
+    margin-bottom: 10px;    
+    height:50px;    
+    background-color: aliceblue;}
+.account_item input{    
+    margin-left: 15px;    
+    width:100%;    
+    border:none;    
+    background-color: aliceblue;}
+.icon i{    
+    width:50px;    
+    height:50px;    
+    border-right: 1px solid black;    
+    text-align: center;    
+    padding:15px;    
+    color:darkgray;}
+.item .item1{    
+    width:60px;   
+    height:40px;    
+    text-align: center;    
+    padding:5px;    
+    border-radius: 10px;}
+.container_dob{    
+    display:flex;  }
+.gender{    
+    margin-left: 50px;}
+.gender_item{    
+    display:flex;    }
+.gender_item button{    
+    width:60px;    
+    height:40px;    
+    text-align: center;    
+    border-radius:10px;    
+    color:darkgray;}
+.gender_item button:hover{    
+    background:chartreuse;}
+.pay_item{    
+    display:flex;    
+    justify-content: space-between;}
+.pay_item1{
+       display:flex;    
+       height:50px;    
+       width:100%;    
+       border:1px solid black;    
+       margin-bottom: 10px;}
+.pay_item1 button{    
+    border:none;    
+    width:100%;      
+    background:aliceblue;    
+    color:darkgray;}
+.pay_item1 button:hover{    
+    background:chartreuse;}
+.Card_cvc{    
+    display:flex;    
+    width:100%;    
+    justify-content: space-between;}
+.cvc_item{    
+    display:flex;    
+    width:50%;    
+    border:1px solid black;    
+    background:aliceblue;}
+.cvc_item input{    
+    border:none;    
+    width:100%;    
+    text-align:center;    
+    background:aliceblue;    }
+.cvc_date{    
+    display:flex;    
+    width:50%;    
+    margin-left: 20px;}
+.date{    
+    width:50%;    
+    margin-right:10px;}
+.select_item{    
+    width:100%;    
+    height:50px;    
+    text-align: center;    
+    background:aliceblue;}
+.year{    
+    width:50%;    }
+.select_item1{   
+     width:100%;    
+     height:50px;    
+     text-align: center;       
+     background:aliceblue;}

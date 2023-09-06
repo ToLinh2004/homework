@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Account.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="container_account">
+                <h3>Account</h3>
+                <div class="account_item">
+                    <div class="icon">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="account_item">
+                    <div class="icon">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
+                    <input type="email" placeholder="Email Adress">
+                </div>
+                <div class="account_item">
+                    <div class="icon">
+                        <i  class="fa fa-key" aria-hidden="true"></i>
+                    </div>
+                    <input type="password" placeholder="Password">
+                </div>
+            </div>
+            <div class="container_dob">
+                <div class="dob">
+                    <h3>Date of Birth</h3>
+                    <div class="item">
+                        <input class="item1" type="number" placeholder="DD" min="1" max="31">
+                        <input class="item1" type="number" placeholder="MM" min="1" max="12">
+                        <input class="item1" type="number" placeholder="YYYY">
+                    </div>
+                </div>
+                <div class="gender">
+                    <h3>Gender</h3>
+                    <div class="gender_item">
+                        <button type="submit">Male</button>
+                        <button type="submit">Female</button>
+                    </div>   
+                </div>
+            </div>
+            <div class="pay">
+                <h3>Payment Details</h3>
+                <div class="pay_item">
+                    <div class="pay_item1">
+                        <button type="submit">
+                            <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                            Credit Card
+                        </button>
+                    </div>
+                    <div class="pay_item1">
+                        <button type="submit">
+                            <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                            Paypal
+                        </button>
+                    </div>
+                </div> 
+                <div class="Card_num">
+                    <div class="account_item">
+                        <div class="icon">
+                            <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        </div>
+                        <input type="text" placeholder="Card Number">
+                    </div>
+                </div>   
+            </div>
+            <div class="Card_cvc">
+                <div class="cvc_item">
+                    <div class="icon">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
+                    <input type="text" placeholder="Card CVC">
+                </div>
+                <div class="cvc_date">
+                    <div class="date">
+                        <select class="select_item" name="date">
+                            <option value="jan">01 Jan</option>
+                            <option value="feb">01 Feb</option>
+                        </select>
+                    </div>
+                    <div class="year">
+                        <select class="select_item1" name="year">
+                            <option value="year">2015</option>
+                            <option value="year">2016</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+</html>
