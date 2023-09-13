@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: green;
+    color: white;
+}
+.conten{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 20px; 
+}
+.london{
+    width: 368px;
+}
+.paris{
+    width: 368px;
+}
+.tokyo{
+    width: 368px;
+}
+img{
+    width: 368px;
+    height:245px;  
+}
+@media screen and (min-width:320px) and (max-width:415px) {
+    .header h1{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .header p{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .conten{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 2px;
+    }
+    .london{
+        width: 305px;
+    }
+    .paris{
+        width: 305px;
+    }
+    .tokyo{
+        width: 305px;
+    }
+    .london  img{
+        width:305px;
+    }
+    .paris img{
+        width: 305px;
+    }
+    .tokyo img{
+        width: 305px;
+    }
+    
+}
+@media screen and (min-width:600px){
+    .header{
+        font-size: 20px;
+        padding-left: 40px;
+    }
+    .conten{
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+        column-gap: 20px;
+        margin:10px 40px;
+    }
+    .london{
+        width: 250px;
+    }
+    .paris{
+        width: 250px;
+    }
+    .tokyo{
+        width: 250px;
+    }
+    .london  img{
+        width:250px;
+    }
+    .paris img{
+        width: 250px;
+    }
+    .tokyo img{
+        width: 250px;
+    }
+    
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    .conten{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .london{
+        width: 310px;
+    }
+    .paris{
+        width: 310px;
+    }
+    .tokyo{
+        width: 310px;
+    }
+    .london  img{
+        width:310px;
+    }
+    .paris img{
+        width: 310px;
+    }
+    .tokyo img{
+        width: 310px;
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .conten{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .london{
+        width: 310px;
+    }
+    .paris{
+        width: 310px;
+    }
+    .tokyo{
+        width: 310px;
+    }
+    .london  img{
+        width:310px;
+    }
+    .paris img{
+        width: 310px;
+    }
+    .tokyo img{
+        width: 310px;
+    }
+    
+}
+@media screen and (min-width:1025px) and (max-width:1920px) {
+    .conten{
+        grid-template-columns: repeat(3,1fr);
+       
+    }
+    .london{
+        width: 400px;
+    }
+    .paris{
+        width: 400px;
+    }
+    .tokyo{
+        width: 400px;
+    }
+    .london  img{
+        width:450px;
+        height: 400px;
+    }
+    .paris img{
+        width: 450px;
+        height: 400px;
+    }
+    .tokyo img{
+        width: 450px;
+        height: 400px;
+    }
+    
+}
